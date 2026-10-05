@@ -16,9 +16,9 @@ Eliminating human toil through deterministic state machines, AST smell gates, an
 ### 🚀 Core Engineering Domains
 
 - **Autonomous AI Agent Architectures**: Enterprise Gemini pipelines featuring deterministic function calling, Model Context Protocol (MCP) servers, and touchless cyclic execution.
-- **High-Converting B2B Lead Engines**: Custom proposal generators (PASONA AI), real-time marketplace telemetry ingestion, and automated deal-scoring algorithms.
+- **Enterprise Automation & Data Pipelines**: High-throughput web scrapers, automated B2B lead enrichment pipelines, real-time marketplace telemetry ingestion, and autonomous CRM persistence.
 - **High-Throughput Data Infrastructure**: Real-time telemetry ingestion pipelines and data warehousing with Google Cloud (BigQuery & Cloud Run).
-- **Production Standards**: Strict Touchless Async-First development, test-driven microservices (Python 3.12, FastAPI, Docker, TypeScript, Next.js).
+- **Production Standards**: Strict Touchless Async-First development, test-driven microservices (Python 3.12, FastAPI, Docker, TypeScript, Next.js 15).
 
 ---
 
