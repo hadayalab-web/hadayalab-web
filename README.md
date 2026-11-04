@@ -9,8 +9,16 @@
 [![Medium](https://img.shields.io/badge/Medium-Google%20Cloud%20Writer-12100E?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@hadayalab)
 [![X](https://img.shields.io/badge/X-@hadayalab-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/hadayalab)
 
-**Sovereign AI & Cloud Engineering and Supply-Chain Defense (`v15.3-SOVEREIGN-OS`).**  
+**Sovereign AI & Cloud Engineering and Supply-Chain Defense (`v15.4-SOVEREIGN-KERNEL`).**  
 Zero-exfiltration in-browser AST inspections (`connect-src none`), non-breaking runtime vaccines, and DSSE Ed25519 signed CycloneDX 1.6 SBOM attestations powered by Cloudflare Edge Workers + D1 + Google Cloud Run & BigQuery.
+
+---
+
+## 🤖 Open-Source Agentic Coding & Context Indexing (`claude-fts5-runner`)
+
+| Repository | Stack & Architecture | Verification |
+| :--- | :--- | :--- |
+| [**`hadayalab-web/claude-fts5-runner`**](https://github.com/hadayalab-web/claude-fts5-runner) | **Zero-Dependency SQLite FTS5 BM25 Context Indexer & AST-Aware TDD Runner for Claude Code**: Dual-path execution (`Path A` 0ms direct in-memory / `Path B` sub-5ms FTS5 BM25 grounded retrieval), incremental SHA-256 delta indexing, and UTF-8 stdin prompt delivery. | `Python 3.12` · `72 pytest passed` · `MIT License` |
 
 ---
 
