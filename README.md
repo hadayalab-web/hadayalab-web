@@ -1,7 +1,7 @@
 # Hajime Chiba | HadayaLab (AIO Media LLC)
 ### Founder & Principal AI / Cloud Systems Architect at [HadayaLab](https://hadayalab.com)
 
-[![HadayaLab Attested](https://hadayalab.com/badge/HL-2026-DEMO.svg)](https://hadayalab.com/verify)
+[![HadayaLab Attested](https://hadayalab.com/badge/HL-2026-ATTESTED.svg)](https://hadayalab.com/verify)
 [![Official Platform](https://img.shields.io/badge/Platform-hadayalab.com-000000?style=flat-square&logo=cloudflare&logoColor=white)](https://hadayalab.com)
 [![Google Skills](https://img.shields.io/badge/Google%20Skills-45x%20Verified%20Badges-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://www.skills.google/public_profiles/49cdbdb6-20d4-4661-934a-d882c7f5c6cf)
 [![Credly Wallet](https://img.shields.io/badge/Credly-31x%20Cryptographic%20Badges-FF6B00?style=flat-square&logo=credly&logoColor=white)](https://www.credly.com/users/hadayalab)
@@ -9,40 +9,53 @@
 [![Medium](https://img.shields.io/badge/Medium-Google%20Cloud%20Writer-12100E?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@hadayalab)
 [![X](https://img.shields.io/badge/X-@hadayalab-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/hadayalab)
 
-**Sovereign AI & Cloud Engineering and Supply-Chain Defense (`v15.4-SOVEREIGN-KERNEL`).**  
-Zero-exfiltration in-browser AST inspections (`connect-src none`), non-breaking runtime vaccines, and DSSE Ed25519 signed CycloneDX 1.6 SBOM attestations powered by Cloudflare Edge Workers + D1 + Google Cloud Run & BigQuery.
+**Sovereign AI & Cloud Systems Engineering and Supply-Chain Defense.**  
+Zero-exfiltration in-browser AST inspections (`connect-src 'none'`), non-breaking runtime vaccines, and DSSE Ed25519 signed CycloneDX 1.6 SBOM attestations powered by Cloudflare Edge Workers + D1 + Google Cloud Run & BigQuery.
 
 ---
 
-## 🤖 Open-Source Agentic Coding & Context Indexing (`claude-fts5-runner`)
+## 📦 Open-Source Engineering & Supply-Chain Security Repositories
 
-| Repository | Stack & Architecture | Verification |
+| Repository | Stack & Architecture | Live Verification |
 | :--- | :--- | :--- |
-| [**`hadayalab-web/claude-fts5-runner`**](https://github.com/hadayalab-web/claude-fts5-runner) | **Zero-Dependency SQLite FTS5 BM25 Context Indexer & AST-Aware TDD Runner for Claude Code**: Dual-path execution (`Path A` 0ms direct in-memory / `Path B` sub-5ms FTS5 BM25 grounded retrieval), incremental SHA-256 delta indexing, and UTF-8 stdin prompt delivery. | `Python 3.12` · `72 pytest passed` · `MIT License` |
+| [**`hadayalab-web/claude-fts5-runner`**](https://github.com/hadayalab-web/claude-fts5-runner) | **Zero-Dependency SQLite FTS5 BM25 Context Indexer & Dual-Path Runner for Claude Code**: Path A (direct) / Path B (FTS5 BM25 grounded retrieval), incremental SHA-256 Markdown section indexing, query sanitization, and UTF-8 stdin prompt delivery. | [![CI](https://github.com/hadayalab-web/claude-fts5-runner/actions/workflows/ci.yml/badge.svg)](https://github.com/hadayalab-web/claude-fts5-runner/actions/workflows/ci.yml)<br>`Python 3.10–3.13` · `72 pytest` · `MIT` |
+| [**`hadayalab-web/pandemic-fortress-advisories`**](https://github.com/hadayalab-web/pandemic-fortress-advisories) | **Signed CycloneDX 1.6 SBOMs, Lockfile Fixtures & Ed25519 DSSE Verifier**: Public advisory mirror (`PAIN-2026-001` – `006`), reproducible `vulnerable.json` / `patched.json` test vectors, and zero-dependency Node.js signature verifier (`verify_sbom.mjs`). | [![Verify SBOMs](https://github.com/hadayalab-web/pandemic-fortress-advisories/actions/workflows/verify-sbom.yml/badge.svg)](https://github.com/hadayalab-web/pandemic-fortress-advisories/actions/workflows/verify-sbom.yml)<br>`CycloneDX 1.6` · `Ed25519` · `MIT` |
 
 ---
 
 ## 🛡️ Digital Pandemic Fortress — Live In-Browser AST Inspectors (`0 cr`)
 
-| Advisory ID | Technical Advisory & Remediation Blueprint | Live Sandbox |
-| :--- | :--- | :--- |
-| `PAIN-2026-001` | [PHP2Shell (CVE-2026-109618 / CVE-2026-109619): Check Your PHP 8.3 / 8.4 Runtime and Vaccinate Production](https://hadayalab.com/blog/php2shell-cve-2026-109618-109619-check-and-vaccine) | [Launch 0 cr AST Inspector &rarr;](https://hadayalab.com/blog/php2shell-cve-2026-109618-109619-check-and-vaccine) |
-| `PAIN-2026-002` | [Node2Shell (CVE-2026-111497): Brotli Decoder Memory Corruption in Node.js 22 / 24 / 26, Check and Vaccinate](https://hadayalab.com/blog/node2shell-cve-2026-111497-brotli-rce-check-and-vaccine) | [Launch 0 cr AST Inspector &rarr;](https://hadayalab.com/blog/node2shell-cve-2026-111497-brotli-rce-check-and-vaccine) |
-| `PAIN-2026-003` | [EOL PHP 7.4 / 8.0 / 8.1 and PHP2Shell: Virtual Patching with Cloudflare WAF and PHP-FPM Without Downtime](https://hadayalab.com/blog/eol-php-74-80-81-php2shell-virtual-patch-waf-vaccine) | [Launch 0 cr AST Inspector &rarr;](https://hadayalab.com/blog/eol-php-74-80-81-php2shell-virtual-patch-waf-vaccine) |
-| `PAIN-2026-004` | [React2Shell + Node2Shell + Postgres RLS: A Combined Audit for AI-Built Next.js and Supabase SaaS](https://hadayalab.com/blog/react2shell-node2shell-nextjs-rsc-combined-audit-vaccine) | [Launch 0 cr AST Inspector &rarr;](https://hadayalab.com/blog/react2shell-node2shell-nextjs-rsc-combined-audit-vaccine) |
-| `PAIN-2026-005` | [Stale Docker Images and PHP2Shell / Node2Shell: Audit Cloud Run, Kubernetes and AWS Lambda for Pre-Oct-21 Base Layers](https://hadayalab.com/blog/docker-aws-lambda-php2shell-node2shell-stale-image-audit) | [Launch 0 cr AST Inspector &rarr;](https://hadayalab.com/blog/docker-aws-lambda-php2shell-node2shell-stale-image-audit) |
-| `PAIN-2026-006` | [AI Agent Supply-Chain Poisoning: Scan SKILL.md, .cursorrules and mcp.json for Hidden Unicode and Exfiltration Hooks](https://hadayalab.com/blog/ai-agent-mcp-skill-poisoning-scanner-and-attestation) | [Launch 0 cr AST Inspector &rarr;](https://hadayalab.com/blog/ai-agent-mcp-skill-poisoning-scanner-and-attestation) |
+| Advisory ID | Technical Advisory & Remediation Blueprint | Signed SBOM | Live Sandbox |
+| :--- | :--- | :--- | :--- |
+| `PAIN-2026-001` | [PHP2Shell (CVE-2026-109618 / CVE-2026-109619): Check Your PHP 8.3 / 8.4 Runtime and Vaccinate Production](https://hadayalab.com/blog/php2shell-cve-2026-109618-109619-check-and-vaccine) | [`PAIN-2026-001.cdx.json`](https://github.com/hadayalab-web/pandemic-fortress-advisories/blob/main/sbom/PAIN-2026-001.cdx.json) | [Launch 0 cr Inspector &rarr;](https://hadayalab.com/blog/php2shell-cve-2026-109618-109619-check-and-vaccine) |
+| `PAIN-2026-002` | [Node2Shell (CVE-2026-111497): Brotli Decoder Memory Corruption in Node.js 22 / 24 / 26, Check and Vaccinate](https://hadayalab.com/blog/node2shell-cve-2026-111497-brotli-rce-check-and-vaccine) | [`PAIN-2026-002.cdx.json`](https://github.com/hadayalab-web/pandemic-fortress-advisories/blob/main/sbom/PAIN-2026-002.cdx.json) | [Launch 0 cr Inspector &rarr;](https://hadayalab.com/blog/node2shell-cve-2026-111497-brotli-rce-check-and-vaccine) |
+| `PAIN-2026-003` | [EOL PHP 7.4 / 8.0 / 8.1 and PHP2Shell: Virtual Patching with Cloudflare WAF and PHP-FPM Without Downtime](https://hadayalab.com/blog/eol-php-74-80-81-php2shell-virtual-patch-waf-vaccine) | [`PAIN-2026-003.cdx.json`](https://github.com/hadayalab-web/pandemic-fortress-advisories/blob/main/sbom/PAIN-2026-003.cdx.json) | [Launch 0 cr Inspector &rarr;](https://hadayalab.com/blog/eol-php-74-80-81-php2shell-virtual-patch-waf-vaccine) |
+| `PAIN-2026-004` | [React2Shell + Node2Shell + Postgres RLS: A Combined Audit for AI-Built Next.js and Supabase SaaS](https://hadayalab.com/blog/react2shell-node2shell-nextjs-rsc-combined-audit-vaccine) | [`PAIN-2026-004.cdx.json`](https://github.com/hadayalab-web/pandemic-fortress-advisories/blob/main/sbom/PAIN-2026-004.cdx.json) | [Launch 0 cr Inspector &rarr;](https://hadayalab.com/blog/react2shell-node2shell-nextjs-rsc-combined-audit-vaccine) |
+| `PAIN-2026-005` | [Stale Docker Images and PHP2Shell / Node2Shell: Audit Cloud Run, Kubernetes and AWS Lambda for Pre-Oct-21 Base Layers](https://hadayalab.com/blog/docker-aws-lambda-php2shell-node2shell-stale-image-audit) | [`PAIN-2026-005.cdx.json`](https://github.com/hadayalab-web/pandemic-fortress-advisories/blob/main/sbom/PAIN-2026-005.cdx.json) | [Launch 0 cr Inspector &rarr;](https://hadayalab.com/blog/docker-aws-lambda-php2shell-node2shell-stale-image-audit) |
+| `PAIN-2026-006` | [AI Agent Supply-Chain Poisoning: Scan SKILL.md, .cursorrules and mcp.json for Hidden Unicode and Exfiltration Hooks](https://hadayalab.com/blog/ai-agent-mcp-skill-poisoning-scanner-and-attestation) | [`PAIN-2026-006.cdx.json`](https://github.com/hadayalab-web/pandemic-fortress-advisories/blob/main/sbom/PAIN-2026-006.cdx.json) | [Launch 0 cr Inspector &rarr;](https://hadayalab.com/blog/ai-agent-mcp-skill-poisoning-scanner-and-attestation) |
 
 - **Public Ed25519 Verification Gateway**: [`https://hadayalab.com/verify`](https://hadayalab.com/verify)
 - **Public JWK Key Set (`hadayalab-attest-2026-ed25519-k1`)**: [`https://hadayalab.com/.well-known/hadayalab-attestation-keys.json`](https://hadayalab.com/.well-known/hadayalab-attestation-keys.json)
-- **20 Sovereign AI & Cloud Production Blueprints**: [`https://hadayalab.com/templates`](https://hadayalab.com/templates)
+- **41 Sovereign AI & Cloud Production Blueprints**: [`https://hadayalab.com/templates`](https://hadayalab.com/templates)
+- **Zero-Exfiltration Security & CSP Specification**: [`https://hadayalab.com/security`](https://hadayalab.com/security)
 - **Machine-Readable Index (`llms.txt`)**: [`https://hadayalab.com/llms.txt`](https://hadayalab.com/llms.txt)
 
 ---
 
 ## 🏆 45x Verified Google Cloud & DeepMind Skill Badges
 
-All 45 credentials are publicly verifiable on [**Google Skills (`skills.google`)**](https://www.skills.google/public_profiles/49cdbdb6-20d4-4661-934a-d882c7f5c6cf), [**Credly (`credly.com/users/hadayalab`)**](https://www.credly.com/users/hadayalab), and [**`hadayalab.com/about`**](https://hadayalab.com/about#badges).
+All **45 Google Cloud & Google DeepMind Skill Badges** (plus **31 Credly cryptographic wallet badges**) are publicly verifiable on [**Google Skills (`skills.google`)**](https://www.skills.google/public_profiles/49cdbdb6-20d4-4661-934a-d882c7f5c6cf), [**Credly (`credly.com/users/hadayalab`)**](https://www.credly.com/users/hadayalab), and [**`hadayalab.com/about`**](https://hadayalab.com/about#badges).
+
+| Engineering Domain | Verified Badges | Representative Credentials |
+| :--- | :---: | :--- |
+| **Agentic AI, ADK, Antigravity & Multi-Agent Systems** | **20** | Agent Development Kit (`1596`, `1471`), Multi-Agent Systems (`1445`, `1275`, `1682`), AgentOps (`1782`), MCP & Vibe Coding (`1459`), Google Antigravity (`1685`) |
+| **Gemini Multimodality, DeepMind SLM & GenAI** | **8** | Google DeepMind: Train a Small Language Model (`1453`), Multimodal RAG (`GSP520`, `GSP524`), Document AI (`GSP367`), Google AI Studio (`1426`) |
+| **Cloud Security, IAM, SCC & Supply-Chain Delivery** | **7** | Secure Software Delivery (`1164`), Security Command Center (`759`), Privileged IAM (`1337`), Sensitive Data Protection (`750`), Cloud Network Security (`654`), CI/CD (`691`) |
+| **BigQuery ML, Vector Search & Data Engineering** | **6** | Multimodal Vector Search (`GSP523`), Predictive Modeling & BigQuery ML (`626`, `627`, `656`), Enterprise Data Warehousing (`624`) |
+| **Cloud Run, Kubernetes (GKE) & Terraform IaC** | **4** | Serverless Cloud Run (`741`), Kubernetes on Google Cloud (`783`), Terraform Infrastructure (`636`), Cloud Storage APIs (`755`) |
+
+<details>
+<summary><strong>Expand Full Cryptographic Directory — All 45 Verified Google Cloud &amp; DeepMind Skill Badges (#1 – #45)</strong></summary>
 
 | # | Code | Credential Name | Issuer | Public Verification |
 | :--- | :--- | :--- | :--- | :--- |
@@ -91,6 +104,8 @@ All 45 credentials are publicly verifiable on [**Google Skills (`skills.google`)
 | 43 | `1593` | **Add Agent Capabilities With Tools** | Google Cloud | [skills.google](https://www.skills.google/public_profiles/49cdbdb6-20d4-4661-934a-d882c7f5c6cf) |
 | 44 | `1504` | **Understand Google Cloud Agents** | Google Cloud | [skills.google](https://www.skills.google/public_profiles/49cdbdb6-20d4-4661-934a-d882c7f5c6cf) |
 | 45 | `1436` | **Build AI Agents with Enterprise Databases** | Google Cloud | [skills.google](https://www.skills.google/public_profiles/49cdbdb6-20d4-4661-934a-d882c7f5c6cf) |
+
+</details>
 
 ---
 
