@@ -1,7 +1,7 @@
 # Hajime Chiba | HadayaLab (AIO Media LLC)
 ### Founder & Principal AI / Cloud Systems Architect at [HadayaLab](https://hadayalab.com)
 
-[![HadayaLab Attested](https://hadayalab.com/badge/HL-2026-ATTESTED.svg)](https://hadayalab.com/verify)
+[![HadayaLab Attested](https://img.shields.io/badge/HadayaLab%20Attested-Ed25519%20DSSE-047857?style=flat-square&logo=cloudflare&logoColor=white)](https://hadayalab.com/verify)
 [![Official Platform](https://img.shields.io/badge/Platform-hadayalab.com-000000?style=flat-square&logo=cloudflare&logoColor=white)](https://hadayalab.com)
 [![Google Skills](https://img.shields.io/badge/Google%20Skills-45x%20Verified%20Badges-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://www.skills.google/public_profiles/49cdbdb6-20d4-4661-934a-d882c7f5c6cf)
 [![Credly Wallet](https://img.shields.io/badge/Credly-31x%20Cryptographic%20Badges-FF6B00?style=flat-square&logo=credly&logoColor=white)](https://www.credly.com/users/hadayalab)
@@ -19,11 +19,11 @@ Zero-exfiltration in-browser AST inspections (`connect-src 'none'`), non-breakin
 | Repository | Stack & Architecture | Live Verification |
 | :--- | :--- | :--- |
 | [**`hadayalab-web/claude-fts5-runner`**](https://github.com/hadayalab-web/claude-fts5-runner) | **Zero-Dependency SQLite FTS5 BM25 Context Indexer & Dual-Path Runner for Claude Code**: Path A (direct) / Path B (FTS5 BM25 grounded retrieval), incremental SHA-256 Markdown section indexing, query sanitization, and UTF-8 stdin prompt delivery. | [![CI](https://github.com/hadayalab-web/claude-fts5-runner/actions/workflows/ci.yml/badge.svg)](https://github.com/hadayalab-web/claude-fts5-runner/actions/workflows/ci.yml)<br>`Python 3.10–3.13` · `72 pytest` · `MIT` |
-| [**`hadayalab-web/pandemic-fortress-advisories`**](https://github.com/hadayalab-web/pandemic-fortress-advisories) | **Signed CycloneDX 1.6 SBOMs, Lockfile Fixtures & Ed25519 DSSE Verifier**: Public advisory mirror (`PAIN-2026-001` – `006`), reproducible `vulnerable.json` / `patched.json` test vectors, and zero-dependency Node.js signature verifier (`verify_sbom.mjs`). | [![Verify SBOMs](https://github.com/hadayalab-web/pandemic-fortress-advisories/actions/workflows/verify-sbom.yml/badge.svg)](https://github.com/hadayalab-web/pandemic-fortress-advisories/actions/workflows/verify-sbom.yml)<br>`CycloneDX 1.6` · `Ed25519` · `MIT` |
+| [**`hadayalab-web/pandemic-fortress-advisories`**](https://github.com/hadayalab-web/pandemic-fortress-advisories) | **Signed CycloneDX 1.6 SBOMs, Lockfile Fixtures & Ed25519 DSSE Verifier**: Public advisory mirror (`PAIN-2026-001` – `006`), reproducible `vulnerable.json` / `patched.json` test vectors, and zero-dependency Node.js signature verifier (`verify_sbom.mjs`). | [![SBOM CI](https://github.com/hadayalab-web/pandemic-fortress-advisories/actions/workflows/verify-sbom.yml/badge.svg)](https://github.com/hadayalab-web/pandemic-fortress-advisories/actions/workflows/verify-sbom.yml)<br>`CycloneDX 1.6` · `Ed25519` · `MIT` |
 
 ---
 
-## 🛡️ Digital Pandemic Fortress — Live In-Browser AST Inspectors (`0 cr`)
+## 🛡️ Digital Pandemic Fortress — Live In-Browser AST Inspectors
 
 | Advisory ID | Technical Advisory & Remediation Blueprint | Signed SBOM | Live Sandbox |
 | :--- | :--- | :--- | :--- |
