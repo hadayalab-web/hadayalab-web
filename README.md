@@ -1,10 +1,10 @@
-# Hajime Chiba | HadayaLab (AIO Media LLC)
+# Hajime Chiba | HadayaLab
 ### Founder & Principal AI / Cloud Systems Architect at [HadayaLab](https://hadayalab.com)
 
 [![HadayaLab Attested](https://img.shields.io/badge/HadayaLab%20Attested-Ed25519%20DSSE-047857?style=flat-square&logo=cloudflare&logoColor=white)](https://hadayalab.com/verify)
 [![Official Platform](https://img.shields.io/badge/Platform-hadayalab.com-000000?style=flat-square&logo=cloudflare&logoColor=white)](https://hadayalab.com)
 [![Google Skills](https://img.shields.io/badge/Google%20Skills-45x%20Verified%20Badges-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://www.skills.google/public_profiles/49cdbdb6-20d4-4661-934a-d882c7f5c6cf)
-[![Credly Wallet](https://img.shields.io/badge/Credly-31x%20Cryptographic%20Badges-FF6B00?style=flat-square&logo=credly&logoColor=white)](https://www.credly.com/users/hadayalab)
+[![Credly Wallet](https://img.shields.io/badge/Credly-31x%20Skill%20Badges%20%C2%B7%2060%20Skills-FF6B00?style=flat-square&logo=credly&logoColor=white)](https://www.credly.com/users/hadayalab)
 [![Google Developer](https://img.shields.io/badge/g.dev-hadayalab-34A853?style=flat-square&logo=google&logoColor=white)](https://g.dev/hadayalab)
 [![Medium](https://img.shields.io/badge/Medium-Google%20Cloud%20Writer-12100E?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@hadayalab)
 [![X](https://img.shields.io/badge/X-@hadayalab-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/hadayalab)
@@ -42,9 +42,9 @@ Zero-exfiltration in-browser AST inspections (`connect-src 'none'`), non-breakin
 
 ---
 
-## 🏆 45x Verified Google Cloud & DeepMind Skill Badges
+## 🏆 45x Verified Google Cloud & DeepMind Badges
 
-All **45 Google Cloud & Google DeepMind Skill Badges** (plus **31 Credly cryptographic wallet badges**) are publicly verifiable on [**Google Skills (`skills.google`)**](https://www.skills.google/public_profiles/49cdbdb6-20d4-4661-934a-d882c7f5c6cf), [**Credly (`credly.com/users/hadayalab`)**](https://www.credly.com/users/hadayalab), and [**`hadayalab.com/about`**](https://hadayalab.com/about#badges).
+**45 Verified Google Cloud & DeepMind Badges on Google Skills (Diamond League — including 31 Credly-Verified Skill Badges across 60 Verified Skills) + 7 Google Cloud × NVIDIA GPU / GEAR Technical Pathway Badges on g.dev** (31 Credly-Verified Skill Badges + 14 Course Completion Badges on Google Skills; 15 GPU / AlloyDB hands-on labs on g.dev). Publicly verifiable on [**Google Skills (`skills.google`)**](https://www.skills.google/public_profiles/49cdbdb6-20d4-4661-934a-d882c7f5c6cf), [**Credly (`credly.com/users/hadayalab`)**](https://www.credly.com/users/hadayalab), [**Google Developer (`g.dev/hadayalab`)**](https://g.dev/hadayalab), and [**`hadayalab.com/about`**](https://hadayalab.com/about#badges).
 
 | Engineering Domain | Verified Badges | Representative Credentials |
 | :--- | :---: | :--- |
@@ -55,7 +55,7 @@ All **45 Google Cloud & Google DeepMind Skill Badges** (plus **31 Credly cryptog
 | **Cloud Run, Kubernetes (GKE) & Terraform IaC** | **4** | Serverless Cloud Run (`741`), Kubernetes on Google Cloud (`783`), Terraform Infrastructure (`636`), Cloud Storage APIs (`755`) |
 
 <details>
-<summary><strong>Expand Full Cryptographic Directory — All 45 Verified Google Cloud &amp; DeepMind Skill Badges (#1 – #45)</strong></summary>
+<summary><strong>Expand Full Cryptographic Directory — All 45 Verified Google Cloud &amp; DeepMind Badges (31 Credly-Verified Skill Badges + 14 Course Completion Badges, #1 – #45)</strong></summary>
 
 | # | Code | Credential Name | Issuer | Public Verification |
 | :--- | :--- | :--- | :--- | :--- |
